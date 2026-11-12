@@ -15,3 +15,12 @@
 .product-detail h3{margin-bottom:16px}
 .product-detail .text-link{margin-top:auto;font-size:12px}
 @media(max-width:760px){.product-details{grid-template-columns:1fr}.product-detail img{max-height:310px}}
+
+.daily-care{background:#eee8ef}.more-care{text-align:center}.more-care p{margin:0 auto 25px}.more-care .wrap{max-width:780px}
+
+@media(min-width:761px){.product-details-featured{grid-template-columns:repeat(2,minmax(0,1fr))}.product-details-featured .product-detail img{max-height:310px}}
+
+.scion-photo{display:grid;place-items:center;margin:0;aspect-ratio:1.25;overflow:hidden;background:#deedf8}
+.scion-crop{position:relative;display:block;height:100%;aspect-ratio:369/831;overflow:hidden}
+.product-detail .scion-crop img{position:absolute;width:294.31%;height:auto;max-height:none;aspect-ratio:auto;left:-50.14%;top:-33.09%}
+@media(max-width:760px){.scion-photo{max-height:310px}}
